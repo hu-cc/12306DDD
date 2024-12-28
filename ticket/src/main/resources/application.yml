@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: TicketApplication
+  main:
+    banner-mode: off
+
+logging:
+  include-application-name: false
+  include-paths:
+    - /v1/**
+  level:
+    root: "info"
+    org.springframework.web: "info"
